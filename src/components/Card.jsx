@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React, { useRef, useState } from "react";
 import "../assets/css/card.css";
 import { Link } from 'react-router-dom'; 
+import { gifpicture } from ".";
 
 function Card() {
   const [cardClass, setCardClass] = useState("");
@@ -54,6 +55,7 @@ function Card() {
         <div id="card-front">
           <div className="wrap">
             <h1>С Днём Рождения Мамуля!</h1>
+            <image>gifpicture</image>
           </div>
         </div>
     </div>
