@@ -55,7 +55,7 @@ function Card() {
         <div id="card-front">
           <div className="wrap">
             <h1>С Днём Рождения Мамуля!</h1>
-            <image>gifpicture</image>
+            <img src="gifpicture"></img>
           </div>
         </div>
     </div>
