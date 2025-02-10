@@ -10,13 +10,13 @@ const images = [
  picture6,
  picture7,
  picture8,
- picture1,
- picture2,
- picture9,
- picture10,
- picture4,
- picture3,
- picture11,
+//  picture1,
+//  picture2,
+//  picture9,
+//  picture10,
+//  picture4,
+//  picture3,
+//  picture11,
 
 ];
 function Picture() {
