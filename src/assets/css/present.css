@@ -182,7 +182,7 @@ input#click {
   position: absolute;
 }
 
-/* orange box */
+/* orange box 
 #raffle-red div:after {
   width: 70px;
   padding-top: 120px;
@@ -196,4 +196,4 @@ input#click {
   line-height: 1;
   content: "";
   position: absolute;
-}
+} */

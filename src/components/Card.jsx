@@ -37,18 +37,23 @@ function Card() {
       <div id="card" className={`${cardClass}`} onClick={toggleCard}>     
         <div id="card-inside">
           <div className="wrap">
-            <p>Happy Birthday, John Doe!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus dolore recusandae eveniet dicta. Corrupti.</p>
-            <p>
-              I hope you have a very blessed birthday!
+            <p>С Днём Рождения , Моя Любимая Мамуля!</p>
+            <p className="text-xs">Я желаю тебе крепкого здоровья, радости, счастья и исполнения всех твоих желаний 🌠 
             </p>
-            <p>
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, cum.
+            <p className="text-xs">Пусть в твоей жизни будет как можно больше светлых моментов, улыбок и теплоты. 
+            Пусть каждый новый день приносит тебе радость 🥰</p>
+            <p className="text-xs">
+            Спасибо за твою доброту, заботу и поддержку. Ты всегда знаешь как дать мудрый совет и как сделать даже самый 
+            обычный день тёплым и радостным 🫂💗💞
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p className="text-xs"> Я бесконечно ценю всё, чему ты меня научила, и горжусь тем, что именно ты моя мама! 🤗😽</p>
+            <p className="text-xs">
+            Я тебя так сильно люблю и так благодарна за всё, что ты для меня делаешь. Я всегда рядом и очень тебя люблю! 💕
             </p>
-            <p className="signed">Jane Doe</p>
+            <p className="text-sm">
+            С Днём Рождения, моя дорогая мамуля! 🎂🎁🎊💖😘💝
+            </p>
+            <p className="signed">Юличка</p>
           </div>
         </div>
 
@@ -69,7 +74,7 @@ function Card() {
         transition={{duration: 1.2}}> 
         <Link to ='/cake'>
         <p className="-mt-[4rem] px-7 py-3 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">
-            Next Page
+          Следующая Страница
           </p>
         </Link>
             
